@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lead Qualification</title>
+    <style>
+        body { font-family: Arial; max-width: 500px; margin: 50px auto; padding: 20px; }
+        input, select, textarea { width: 100%; padding: 8px; margin: 5px 0 15px; }
+        button { background: blue; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Request a Quote</h1>
+    <form id="leadForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+        
+        <label>Company:</label>
+        <input type="text" id="company" required>
+        
+        <label>Job Title:</label>
+        <input type="text" id="title" required>
+        
+        <label>Budget:</label>
+        <select id="budget">
+            <option value="approved">Approved</option>
+            <option value="pending">Pending</option>
+            <option value="no">No budget</option>
+        </select>
+        
+        <label>What do you need?</label>
+        <textarea id="need" rows="3"></textarea>
+        
+        <label>Timeline:</label>
+        <select id="timeline">
+            <option value="30 days">Within 30 days</option>
+            <option value="60 days">60 days</option>
+            <option value="90 days">90 days</option>
+            <option value="next year">Next year</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('leadForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const data = {
+                name: document.getElementById('name').value,
+                company: document.getElementById('company').value,
+                title: document.getElementById('title').value,
+                budget: document.getElementById('budget').value,
+                need: document.getElementById('need').value,
+                timeline: document.getElementById('timeline').value
+            };
+            
+            const response = await fetch('http://localhost:8000/qualify', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+            document.getElementById('result').innerHTML = `<p>${result.message}</p>`;
+        };
+    </script>
+</body>
+</html>
