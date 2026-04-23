@@ -130,6 +130,20 @@ The system follows a 5-phase end-to-end flow:
 
 ---
 
+### | Leads_Log.CSV | Chart (threshold = 55) |
+
+### A sales manager can look at this chart for 3 seconds & understand:
+- Who the top leads are
+- Where the threshold line is
+- Which leads need immediate attention (arrange a callback)
+
+<img width="1261" height="605" alt="image" src="https://github.com/user-attachments/assets/a6f70d65-b952-421e-b8c2-f5a08a0971d8" />
+<img width="1838" height="238" alt="image" src="https://github.com/user-attachments/assets/a9eceb07-b8fd-4c6a-ab6b-9a714cfd4a05" />
+
+
+
+  ---
+  
 
 ## 📁 Project Structure
 
