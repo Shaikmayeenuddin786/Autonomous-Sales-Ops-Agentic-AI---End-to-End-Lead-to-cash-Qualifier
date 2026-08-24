@@ -18,7 +18,7 @@
 
 ---
 
-## The Big Picture
+## **The Big Picture**
 This project solves a real sales problem: reps wasted 22 minutes per lead on manual admin, and leads were getting lost. I built an AI agent that does the boring work in 5 seconds—scoring, logging, and alerting—so reps can focus on selling. It's a practical, business-focused automation that directly improves revenue by ensuring no lead is ever missed.
 
 
