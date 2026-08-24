@@ -4,9 +4,23 @@
 ---
 
 
-## Project Overview
+## **Quick Overview**
 
-An end-to-end lead qualification system that automates BANT scoring, sales rep notifications, and lead logging - reducing manual processing from 22 minutes to under 5 seconds per lead.
+| **Section** | **Details** |
+| :--- | :--- |
+| **Business Problem** | Sales reps waste 22 minutes per lead on manual admin (reading, scoring, logging, reminders). Leads get forgotten, and managers have zero visibility into lead volume or qualification decisions. |
+| **Objectives** | 1. Automate BANT qualification<br>2. Reduce processing time from 22 min → 5 sec<br>3. Ensure zero lead loss (every lead logged)<br>4. Send real-time email alerts for qualified leads<br>5. Build production-ready error handling with auto-backup |
+| **Technical Stack** | **Backend:** Python, FastAPI, Uvicorn<br>**Email:** Gmail API, OAuth 2.0<br>**Frontend:** HTML, CSS, JavaScript<br>**Storage:** CSV with auto-backup<br>**Logging:** agent.log with traceback<br>**Version Control:** Git, GitHub |
+| **Key Features** | • BANT scoring engine (0-100)<br>• 55-point qualification threshold<br>• HTML email alerts for hot leads<br>• CSV logging with 3-retry logic<br>• Automatic backup on file lock<br>• Centralized manager dashboard (CSV + chart)<br>• Full error logging with traceback |
+| **Start-to-End Pipeline** | **Lead Intake** (web form) → **FastAPI Backend** (validation) → **BANT Scoring** (0-100) → **Parallel Actions** (email if ≥55, always log CSV) → **Instant Response** (user sees result, rep gets email, manager views CSV) |
+
+
+
+---
+
+## The Big Picture
+This project solves a real sales problem: reps wasted 22 minutes per lead on manual admin, and leads were getting lost. I built an AI agent that does the boring work in 5 seconds—scoring, logging, and alerting—so reps can focus on selling. It's a practical, business-focused automation that directly improves revenue by ensuring no lead is ever missed.
+
 
 ---
 
