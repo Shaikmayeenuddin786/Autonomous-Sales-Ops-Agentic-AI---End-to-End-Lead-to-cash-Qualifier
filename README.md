@@ -1,5 +1,7 @@
-# **Autonomous-Sales-Ops-Agentic-AI** 
-### **End to End Lead to cash-Qualifier**
+# **Agentic AI for Sales: Lead-to-Cash Automation**
+### **End-to-End Lead Qualification | BANT Scoring & Routing | Real-Time Alerts | Zero Lead Loss | 99.6% Time Savings | Revenue Acceleration**
+
+<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/901fdddb-89d8-4779-8493-2ecc8ff593e5" />
 
 ---
 
@@ -209,11 +211,13 @@ First run will open browser for authentication. `token.json` auto-saved for subs
 
 ---
 
-## 👤 Author
+# 👤 **Author**
 
-**Shaik Mayeenuddin**
+### **Shaik Mayeenuddin**
 
-Data Science & AI/ML Professional | Lean Six Sigma | Process & Revenue Optimization | 
-https://www.linkedin.com/in/shaikmayeenuddin
+#### Business Analyst | Data Analytics & AI/ML | Optimizing Processes to Drive Revenue & Retention
+
+🔗https://www.linkedin.com/in/shaikmayeenuddin
+
 
 ---
