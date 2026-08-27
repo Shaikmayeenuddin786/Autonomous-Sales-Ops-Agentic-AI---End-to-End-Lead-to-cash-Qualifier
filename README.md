@@ -1,5 +1,5 @@
 # **Agentic AI for Sales: Lead-to-Cash Automation**
-### **End-to-End Lead Qualification | BANT Scoring & Routing | Real-Time Alerts | Zero Lead Loss | 99.6% Time Savings | Revenue Acceleration**
+### **End-to-End AI-Powered Lead Qualification | BANT Scoring & Routing | Real-Time Alerts | Zero Lead Loss | 99.6% Time Savings | Revenue Acceleration**
 
 <img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/901fdddb-89d8-4779-8493-2ecc8ff593e5" />
 
